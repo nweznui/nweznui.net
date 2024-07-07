@@ -1,0 +1,73 @@
+ <!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>nweznui &#183; photos</title>
+	  <link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/drawings.css">
+		<script>
+		function swipe(id) {
+      var imgsrc = document.getElementById(id).src;
+      window.open(imgsrc,'_blank');
+      }
+      
+    function show(id) {
+      document.getElementById('gallery_main').innerHTML = document.getElementById(id).innerHTML;
+    
+    }
+    </script>
+	</head>
+	
+	<body>
+		<div id="wrapper">
+			<main>
+				<div id="content">
+					<div class="innertube">
+						<h3><button onclick="show('nature')">[nature]</button> &#8226; <button onclick="show('city')">[city]</button> &#8226; <button onclick="show('other')">[other]</button></h3>
+						
+						<p> click image to open in new tab. click the links above to look at different categories. </p>
+						<div class="gallery" id="gallery_main">
+						</div>
+						<div id="nature" style="display:none">
+							<img id="photo17" src="content/photos/nature/sky1.jpg" onClick="swipe(this.id);">
+							<img id="photo16" src="content/photos/nature/sky2.jpg" onClick="swipe(this.id);">
+							<img id="photo15" src="content/photos/nature/sky3.jpg" onClick="swipe(this.id);">
+              <img id="photo14" src="content/photos/nature/lake.jpg" onClick="swipe(this.id);">
+							<img id="photo13" src="content/photos/nature/fountain_grass.jpg" onClick="swipe(this.id);">
+							<img id="photo12" src="content/photos/nature/lilypads.jpg" onClick="swipe(this.id);">
+							<img id="photo11" src="content/photos/nature/fish.jpg" onClick="swipe(this.id);">
+							<img id="photo10" src="content/photos/nature/false_shamrock.jpg" onClick="swipe(this.id);">
+						  <img id="photo9" src="content/photos/nature/prayer_plant.jpg" onClick="swipe(this.id);">
+              <img id="photo8" src="content/photos/nature/spring_crocus.jpg" onClick="swipe(this.id);">
+              <img id="photo7" src="content/photos/nature/ghost_pipe.jpg" onClick="swipe(this.id);">
+              <img id="photo6" src="content/photos/nature/woods_house.jpg" onClick="swipe(this.id);">
+              <img id="photo5" src="content/photos/nature/eagle.jpg" onClick="swipe(this.id);">
+              <img id="photo4" src="content/photos/nature/prairie.jpg" onClick="swipe(this.id);">
+              <img id="photo3" src="content/photos/nature/forest3.jpg" onClick="swipe(this.id);">
+              <img id="photo2" src="content/photos/nature/forest2.jpg" onClick="swipe(this.id);">
+              <img id="photo1" src="content/photos/nature/forest1.jpg" onClick="swipe(this.id);">
+  					</div>
+            <div id="city" style="display:none">
+              <img id="photo7" src="content/photos/city/from_lake.jpg" onClick="swipe(this.id);">
+              <img id="photo6" src="content/photos/city/church.jpg" onClick="swipe(this.id);">
+              <img id="photo5" src="content/photos/city/cool_house.jpg" onClick="swipe(this.id);">
+              <img id="photo4" src="content/photos/city/park.jpg" onClick="swipe(this.id);">
+              <img id="photo3" src="content/photos/city/porch.jpg" onClick="swipe(this.id);">
+              <img id="photo2" src="content/photos/city/loop.jpg" onClick="swipe(this.id);">
+              <img id="photo1" src="content/photos/city/rabbit.jpg" onClick="swipe(this.id);">
+  					</div>
+            <div id="other" style="display:none">
+              <img id="photo5" src="content/photos/other/felix.jpg" onClick="swipe(this.id);">
+              <img id="photo4" src="content/photos/other/beehouse.jpg" onClick="swipe(this.id);">
+              <img id="photo3" src="content/photos/other/hedgehog.jpg" onClick="swipe(this.id);">
+              <img id="photo2" src="content/photos/other/me.jpg" onClick="swipe(this.id);">
+              <img id="photo1" src="content/photos/other/yoshi.jpg" onClick="swipe(this.id);">
+  					</div>
+						</ul>
+					<p id="back"><a href="/artnav">&#8592;</a></p>
+					</div>
+				</div>
+			</main>
+		</div>
+	</body>
+</html>
