@@ -1,0 +1,19 @@
+.gallery {
+  margin: auto;
+  width: 100%;
+}
+
+.gallery img {
+  padding: 15px;
+  text-align: center;
+  max-width: 100%;
+
+}
+
+.gallery .top {
+  width: 50%;
+}
+
+.gallery #last {
+  width: 50%; 
+}

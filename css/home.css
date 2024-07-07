@@ -1,0 +1,35 @@
+body {
+ 	background-image: url("/content/artwork/illustrations/town.jpg");
+ 	background-size: cover;	
+ 	border: none;
+ 	height: 1300px;
+}
+
+a {
+  color: black;
+  text-decoration: underline;
+}
+
+#wrapper {
+  background: none;
+}
+
+#nav {
+  width: 230px;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+#nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#moreupdates {
+ font-size: 13px; 
+}
+
+#updates li {
+  list-style-type: none;
+}

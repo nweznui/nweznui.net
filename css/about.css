@@ -1,0 +1,15 @@
+
+#content {
+  margin: 0;
+}
+
+.innertube {
+  display: flex; 
+  margin: 20px 100px;
+  gap: 30px;
+}
+
+#side_image {
+  width: 50%;
+  align-self: center;
+  }
