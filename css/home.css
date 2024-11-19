@@ -1,0 +1,64 @@
+body {
+ 	background-image: url("../artnav/artwork/illustrations/town.jpg");
+ 	background-size: cover;	
+ 	border: none;
+ 	height: 1300px;
+}
+
+.top {
+    width: auto;
+    justify-content: space-between;
+  }
+
+#right h1 {
+  color: white;
+  font-size: 50px;
+  letter-spacing: 20px;
+}
+
+#wrapper {
+  padding: 10px;
+  border: 3px blue dotted;
+  background: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  gap: 10px;
+}
+
+#newestwork > p {
+  font-size: 14px;
+  font-style: italic;
+  /*text-decoration: underline;*/
+  /*color: blue;*/
+  position: absolute;
+  top: 70px;
+}
+
+#newestwork img {
+  width: 300px;
+  border-radius: 10%;
+  height: 100%;
+}
+
+#nav {
+  border: 3px blue dotted;
+    width: fit-content;
+    padding: 10px;
+}
+
+#nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#nav li:not(:last-child) {
+ margin-bottom: 15px;
+}
+
+#moreupdates {
+ font-size: 13px; 
+}
+
+#updates li {
+  list-style-type: none;
+}

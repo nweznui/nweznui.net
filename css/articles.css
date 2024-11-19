@@ -1,0 +1,27 @@
+body { display: flex; 
+       background-image: url(../content/placeholder/floral_bg.jpg);
+       backkground-size: 40px;
+       background-repeat: repeat;}
+/*the leftmost side*/
+aside {
+      display: flex;
+    flex-direction: column;
+  }
+  
+#readingbunny{
+  margin-top: auto;
+  }
+
+/*applies to all sections*/
+section 
+{ border-left: 2px solid black;
+  padding-left: 10px;
+        }
+
+/*within essays*/
+.intro {
+  padding-bottom: 20px;
+  }
+.intro img {
+  float: right;
+  }

@@ -1,0 +1,53 @@
+/* styling that applies universally across the site */
+
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Ethereal-Thin;
+  src: url(/content/fonts/title/Ethereal-Thin.otf);
+}
+
+body {
+  border: 3px blue dotted;
+	line-height: 1.5em;
+	margin: 2.5%;
+}
+
+a {
+  text-decoration: underline;
+  color: blue;
+  font-style: italic;
+}
+
+a:hover {
+  color:red;
+}
+
+#wrapper {
+  display: flex;
+  background-color: #F0F0F0; 
+}
+
+.innertube{
+	padding: 10px;
+}
+
+.top {
+  display: flex; 
+  width: max-content;
+}
+
+#content li {
+  color: #555;
+	margin-left: 30px;
+	padding: 0;
+}
+
+
+#back {
+ font-size: 30px;
+}

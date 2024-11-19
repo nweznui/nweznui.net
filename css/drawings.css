@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  border: none;
+  color: #D66A7B;
+  }
+
+h3 {
+ text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+div .gallery {
+  display: grid;
+  grid-template-columns: repeat(4, .25fr);
+  grid-gap: 5px;
+}
+
+div .gallery img {
+  border: 3px dotted pink;
+  padding: 15px;
+  width: 100%;
+}
+
+/*scrollbar*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #FFFFee00; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: pink; 
+  border-radius: 5px;
+}

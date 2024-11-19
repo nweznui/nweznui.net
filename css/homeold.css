@@ -1,0 +1,70 @@
+body {
+  margin: auto;
+  margin-top: 2.5%;
+ 	width: max-content; 
+ 	background-image: url("/content/assets/patterns/GRNDCVR.png");
+}
+
+#wrapper {
+ background-color: #f0e6df; 
+}
+
+#guestbook {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: max-content;
+}
+
+#guestbook a {
+  width: 200px;
+  font-size: 12px;
+  text-align: center;
+}
+
+#guestbook img {
+  width: 300px;
+}
+
+#nav {
+  width: 230px;
+  padding-top: 15px;
+  padding-left: 15px;
+  border-right: 1px solid black;
+}
+
+#nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#salsablessing {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  border-right: 1px solid black;
+}
+
+#salsablessing p {
+  text-align: center;
+  }
+
+#salsablessing img {
+  width: 400px;
+}
+
+#moreupdates {
+ font-size: 13px; 
+}
+
+#updates {
+  padding: 8px;
+  border-top: 1px solid black;
+}
+
+#updates li {
+  list-style-type: none;
+}

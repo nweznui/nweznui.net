@@ -1,0 +1,87 @@
+body {
+  background-image: url('../content/photos/nature/sky1.jpg');
+  background-size: cover;
+  border:none;
+  }
+  
+body > h1 {
+  color: pink;
+  text-shadow: 2px 2px black;
+}
+
+body > h1::after{
+  content:url(../content/assets/gifs/writesmal.gif);
+  margin-left: 5px;
+}
+
+nav {
+    background-color: white;
+    color: black;
+    margin-right: 20px;
+    padding-left: 10px;
+    height: max-content;
+}
+
+body #wrapper {
+  background-color: transparent;
+  margin: 2em 4em;
+}  
+
+.innertube {
+  background-image: url('../content/assets/patterns/papertexture.jpg')
+}
+
+.entry {
+  display: flex;
+  flex-direction: column;
+  border: 2px darkblue dotted;
+  margin-bottom: 10px;
+  background-size: cover;
+}
+
+.entry:nth-child(odd){
+  border: 2px purple dotted;
+}
+
+.entry #top {
+  display: flex;
+  padding: 2px 5px;
+  border-bottom: 1px black solid;
+  justify-content: space-between;
+}
+
+#para {
+  padding: 20px 40px;
+  color: black;
+  font-size: 16px;
+} 
+
+#para::first-line {
+  font-style: italic; 
+}
+
+.hr-1 {
+  background: black;
+  border-bottom: 2px dashed grey;
+}
+
+img {
+  width: 25%;
+}
+
+.more {display: none;}
+
+.moreBtn {
+  cursor: pointer;
+  background: none;
+}
+
+.bottomnav {
+ display: flex;
+ justify-content: space-between;
+ font-size: 11px;
+}
+
+.bottomnav #writingnav {
+  display: flex;
+}
