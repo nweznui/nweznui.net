@@ -1,14 +1,23 @@
 body {
- 	background-image: url("../artnav/artwork/illustrations/town.jpg");
- 	background-size: cover;	
- 	border: none;
- 	height: 1300px;
+  background-image: url("../artnav/artwork/illustrations/town.jpg");
+  background-size: cover;
+  border: none;
+  height: 1300px;
+}
+
+iframe {
+  border: none;
+  overflow: clip;
 }
 
 .top {
-    width: auto;
-    justify-content: space-between;
-  }
+  width: auto;
+  justify-content: space-between;
+}
+
+#quote {
+  background-color: rgba(255, 255, 255, 0.7);
+}
 
 #right h1 {
   color: white;
@@ -22,43 +31,49 @@ body {
   background: none;
   background-color: rgba(255, 255, 255, 0.5);
   gap: 10px;
+  justify-content: space-between;
 }
 
-#newestwork > p {
+#intro {
+  text-align: right;
+  padding-right: 3px;
+  width: 200px;
+}
+
+#intro img {
+  padding-top: 20px;
+  width: 100px;
+  float: left;
+}
+
+#newestwork>p {
   font-size: 14px;
   font-style: italic;
-  /*text-decoration: underline;*/
-  /*color: blue;*/
   position: absolute;
   top: 70px;
 }
 
 #newestwork img {
-  width: 300px;
   border-radius: 10%;
-  height: 100%;
+  max-height: 250px;
 }
 
 #nav {
   border: 3px blue dotted;
-    width: fit-content;
-    padding: 10px;
+  width: fit-content;
+  padding: 10px;
 }
 
 #nav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 #nav li:not(:last-child) {
- margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
-#moreupdates {
- font-size: 13px; 
-}
-
-#updates li {
-  list-style-type: none;
+#updates {
+  width: 250px;
 }

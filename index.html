@@ -4,7 +4,6 @@
 <!--to do:-->
 
 <!--....boring stuff:-->
-<!--change the update section to iframes (or get rid of it entirely, github automatically documents updates.)-->
 <!--automate fetch of newest artwork by date uploaded to site-->
 <!--figure out how to auto-populate stuff instead of manually copy/pasting html?-->
 
@@ -15,6 +14,7 @@
 <!--replace placeholders with self-made assets-->
 <!--add an rss feed/mailing list??-->
 <!--make drawings based on dreams or comics..-->
+<!-- oekaki board! or public chat / drawing board. -->
 <html>
 
 <head>
@@ -31,6 +31,8 @@
 		<div id="left">
 			<img src="content/assets/site_buttons/button.png">
 			<img src="content/assets/site_buttons/button2.png">
+			<span id="quote"><i>art does not seek to produce the visible, rather, it makes visible. - paul
+					klee</i></span>
 		</div>
 		<div id="right">
 			<h1>nweznui</h1>
@@ -45,25 +47,32 @@
 				<li><a href="/artnav">artwork</a></li>
 				<li><a href="/photos">photos</a></li>
 				<li><a href="/comicnav">comics</a></li>
-				<li><a href="https://nweznui.123guestbook.com/">guestbook</a></li>
+				<li><a href="https://nweznui.atabook.org/">guestbook</a></li>
 			</ul>
 		</nav>
-		<div id="updates">
-			<!--make this into an iframe w scroll-->
-			<iframe src="updatehistory.html"></iframe>
-			<div id="extralinks">
-				<img src="/content/placeholder/emailme-2.gif" id="emailme">
-				<img src="/content/placeholder/emailme-2.gif" id="emailme">
-				<img src="/content/placeholder/emailme-2.gif" id="emailme">
-				<img src="/content/placeholder/emailme-2.gif" id="emailme">
-				<img src="/content/placeholder/emailme-2.gif" id="emailme">
-			</div>
+		<div id="intro">
+			<p>hello! my name is lapi. i love to draw, it's my main thing. but i dabble in lots of other things. thanks
+				for visiting!
+			</p>
+			<img src="/content/placeholder/hedghog.jpg">
 		</div>
 		<div id="newestwork">
-			<p> newest artwork: </p>
+			<p> featured artwork: </p>
 			<!--need to automate this, just reference the gallery one or somethig-->
-			<img src="../artnav/artwork/drawings/kelnurse.jpg">
+			<img src="../artnav/artwork/life_drawings/decayingstump.jpg">
 		</div>
+		<div id="newestwork">
+			<p> featured photo: </p>
+			<!--need to automate this, just reference the gallery one or somethig-->
+			<img src="../content/photos/nature/woods_house.jpg">
+		</div>
+		<div id="updates">
+			<p><img src="/content/placeholder/holy cow.gif" alt=""></p>
+			<iframe src="updatehistory.html"></iframe>
+			<p><img src="/content/placeholder/emailme-2.gif"><img src="/content/placeholder/emailme-2.gif"><img
+					src="/content/placeholder/emailme-2.gif"><img src="/content/placeholder/emailme-2.gif"><img
+					src="/content/placeholder/emailme-2.gif"><img src="/content/placeholder/emailme-2.gif"></p>
+		</div>	
 	</div>
 </body>
 

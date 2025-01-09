@@ -1,0 +1,25 @@
+how to add live commit history to your page!
+
+so, i found manually updating my index page with updates kinda tedious... and wanted to utilize my commit history!
+note this assumes you have already set up a git repo for your site. it's super easy, this took me an hour to figure out but probably will only take 10 minutes to set up.
+
+here's a tutorial on how i did that:
+
+1. create a .sh script. if you like my formatting feel free to copy/paste, otherwise you can find documentation on how to customize it here: https://git-scm.com/docs/pretty-formats
+
+#!/bin/bash
+
+git log --pretty=format:"%as, %ar%n note: %s" > update_history_commits.txt 
+
+echo "commit history fetched!"
+
+2. make a link to your file. this is so we are clean!
+
+3. make your script executable. make sure you include the path:
+
+chmod +x fetch_commit_history.sh
+
+4. cd to your .git folder and open your config file. under alias, paste the following:
+	xpush = !git push $1 $2 && fetch_commit_history.sh 
+
+5.
