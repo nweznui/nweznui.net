@@ -1,0 +1,47 @@
+body {
+    background-image: url('/content/photos/nature/sky3.jpg');
+    background-size: cover;
+    margin: 50px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    margin-bottom: 100px;
+}
+
+.top span {
+    font-size: 24px;
+}
+
+.top img {
+    width: max-content;
+}
+
+.top #season {
+    text-align: center;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.entry>h2::before {
+    content: url(../content/assets/gifs/blackswirl.gif);
+    margin-right: 5px;
+}
+
+iframe {
+    border: none;
+    width: 100%;
+}
+
+.entry {
+    border-bottom: 3px dotted black;
+}
+
+footer{
+    margin-top: 10px;
+}

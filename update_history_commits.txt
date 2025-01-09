@@ -1,10 +1,12 @@
-update: 15 minutes ago
+2025-01-08, 7 seconds ago
+ note: added live updates and freshened up the site. wow!
+2025-01-08, 4 hours ago
  note: live history update test
-update: 7 hours ago
+2025-01-08, 11 hours ago
  note: edits
-update: 7 weeks ago
+2024-11-19, 7 weeks ago
  note: oh boy
-update: 7 weeks ago
+2024-11-19, 7 weeks ago
  note: test 2
-update: 7 weeks ago
+2024-11-19, 7 weeks ago
  note: test
