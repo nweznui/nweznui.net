@@ -7,6 +7,7 @@ body {
 
 iframe {
   border: none;
+  width: 100%;
 }
 
 .top {
@@ -71,8 +72,4 @@ iframe {
 
 #nav li:not(:last-child) {
   margin-bottom: 15px;
-}
-
-#updates {
-  width: 250px;
 }

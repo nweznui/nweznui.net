@@ -1,12 +1,7 @@
-2025-01-08, 7 seconds ago
- note: added live updates and freshened up the site. wow!
-2025-01-08, 4 hours ago
- note: live history update test
-2025-01-08, 11 hours ago
- note: edits
-2024-11-19, 7 weeks ago
- note: oh boy
-2024-11-19, 7 weeks ago
- note: test 2
-2024-11-19, 7 weeks ago
- note: test
+2025-01-09 note: new 2025 journal format!
+2025-01-08 note: added live updates and freshened up the site. wow!
+2025-01-08 note: live history update test
+2025-01-08 note: edits
+2024-11-19 note: oh boy
+2024-11-19 note: test 2
+2024-11-19 note: test
