@@ -42,6 +42,10 @@ iframe {
     border-bottom: 3px dotted black;
 }
 
+.entry img {
+    width: 25%;
+}
+
 footer{
     margin-top: 10px;
 }
