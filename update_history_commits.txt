@@ -1,3 +1,4 @@
+2025-01-12 note: update homepage description. added new journal entry
 2025-01-10 note: polished up the home page a little
 2025-01-10 note: fixed a bug
 2025-01-10 note: new journal entry
