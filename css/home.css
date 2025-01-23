@@ -2,10 +2,10 @@ body {
   background-image: url("../artnav/artwork/illustrations/town.jpg");
   background-size: cover;
   border: none;
-  height: 1300px;
 }
 
 .top {
+  margin-top: 25px;  
   width: auto;
   justify-content: space-between;
 }
@@ -16,9 +16,9 @@ body {
 
 #right {
   position: absolute;
-  margin-left: 711px;
-  margin-top: -60px;
-  scale: 50%;
+  margin-left: 615px;
+  margin-top: -59px;
+  scale: 47%;
   filter: drop-shadow(5px 5px 5px #000);
 }
 
@@ -27,8 +27,30 @@ body {
   border: 3px blue dotted;
   background: none;
   background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
   gap: 10px;
   justify-content: space-between;
+  flex-direction: column;
+  font-size: 12px;
+
+}
+
+/* first row on home page */
+
+/* this defines flex for all rows */
+.row {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.row h5 {
+  font-style: italic;
+}
+
+#artist img {
+  max-height: 100%;
+  max-width: 50%;
 }
 
 #nav {
@@ -48,13 +70,22 @@ body {
 }
 
 #intro {
-  text-align: right;
-  padding-right: 3px;
   width: 200px;
+  font-size: 14px;
+  text-align: right;
+}
+
+#status {
+  text-align: right;
+  padding-top: 25px;
+  font-size: 10px;
+}
+
+#status ul {
+  list-style: none;
 }
 
 #intro img {
-  padding-top: 20px;
   width: 100px;
   float: left;
 }
@@ -76,15 +107,32 @@ iframe {
   width: 100%;
 }
 
-#status {
-  padding-top: 25px;
-  font-size: 10px;
-}
-
-#status ul {
-  list-style: none;
+#updates {
+  width: 305px;
 }
 
 #guestbook {
   text-align: center;
+}
+
+/* second row on home page */
+
+#dream {
+  width: 300px;
+}
+
+#dream button {
+  float: right;
+}
+
+#artist {
+  width: 300px;
+}
+
+#artist img {
+  float: right;
+}
+
+#text {
+  width: 300px;
 }
