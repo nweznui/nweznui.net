@@ -1,27 +1,30 @@
-body { display: flex; 
-       background-image: url(../content/placeholder/floral_bg.jpg);
-       backkground-size: 40px;
-       background-repeat: repeat;}
+body {
+  background-image: url(/content/assets/patterns/qcu50011.jpg);
+  background-repeat: repeat;
+  border: none;
+}
+
+.wrapper {
+  display: flex;
+  background-color: rgb(255, 255, 255, 0.5);
+}
+
 /*the leftmost side*/
-aside {
-      display: flex;
-    flex-direction: column;
-  }
-  
-#readingbunny{
-  margin-top: auto;
-  }
+#aside {
+  width: 300px;
+}
 
 /*applies to all sections*/
-section 
-{ border-left: 2px solid black;
+section {
+  border-left: 2px solid black;
   padding-left: 10px;
-        }
+}
 
 /*within essays*/
 .intro {
   padding-bottom: 20px;
-  }
+}
+
 .intro img {
   float: right;
-  }
+}
