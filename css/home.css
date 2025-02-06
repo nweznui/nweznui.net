@@ -7,16 +7,12 @@ body {
 .top {
   margin-top: 25px;  
   width: auto;
-  justify-content: space-between;
 }
 
-#quote {
-  background-color: rgba(255, 255, 255, 0.7);
-}
 
 #right {
   position: absolute;
-  margin-left: 615px;
+  margin-left: 750px;
   margin-top: -59px;
   scale: 47%;
   filter: drop-shadow(5px 5px 5px #000);
@@ -40,7 +36,7 @@ body {
 /* this defines flex for all rows */
 .row {
   display: flex;
-  gap: 10px;
+  gap: 1px;
   justify-content: space-between;
 }
 
@@ -54,9 +50,8 @@ body {
 }
 
 #nav {
-  border: 3px blue dotted;
+  border: 1px black solid;
   padding: 10px;
-  align-content: space-evenly;
 }
 
 #nav ul {
@@ -107,8 +102,12 @@ iframe {
   width: 100%;
 }
 
-#updates {
+.updates {
   width: 305px;
+}
+
+.updates #lower {
+  border: 1px black solid;
 }
 
 #guestbook {

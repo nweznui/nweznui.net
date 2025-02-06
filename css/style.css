@@ -6,15 +6,10 @@
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family: Ethereal-Thin;
-  src: url(/content/fonts/title/Ethereal-Thin.otf);
-}
-
 body {
   border: 3px blue dotted;
 	line-height: 1.5em;
-	margin: 2.5%;
+  margin: 10px;
 }
 
 a {
