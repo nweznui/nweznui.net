@@ -1,43 +1,68 @@
 body {
     background-image: url('/content/photos/nature/sky1.jpg');
     background-size: cover;
-    margin: 10px;
 }
 
-.top {
+.wrapper {
     display: flex;
-    justify-content: space-between;
-    font-style: italic;
-    font-size: 12px;
 }
 
-.top #season {
-    font-size: 16px;
-}
-
-.entry h2 {
+#entry h2 {
     border-bottom: 1px solid black;
     font-size: 14px;
 }
 
-.entry>h2::before {
+#entry>h2::before {
     content: url(../content/assets/gifs/blackswirl.gif);
     margin-right: 5px;
 }
 
 iframe {
+    width: 1200px;
     background-color: rgba(255, 255, 255, 0.5);
-    border: dotted blue 3px;
-    width: 100%;
-    height: 50vh;
+    border: dotted white 1px;
+    height: 80vh;
     margin-bottom: 10px;
 }
 
-.entry {
-    display:flex;
-    flex-direction: column;
+aside {
+    position: relative;
+    margin-left: 10px;
 }
 
-footer{
-    margin-top: 10px;
+aside h1 {
+    font-style: italic;
+    font-size: 12px;
+}
+
+aside ul {
+    padding-left: 10px;
+    list-style: none;
+    margin: 0px;
+}
+
+aside button {
+    border: none;
+    cursor: pointer;
+}
+
+aside img {
+    margin-top: 65px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a {
+    color: black;
+    border-bottom: 1px solid black;
+    text-decoration: none;
+    font-style: italic;
+    font-size: 14px;
+}
+
+footer a:hover {
+    color: white;
 }
