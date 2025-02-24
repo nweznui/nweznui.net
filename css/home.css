@@ -71,11 +71,24 @@ a:hover {
 }
 
 #intro {
-  width: 200px;
-  font-size: 14px;
-  text-align: right;
+  width: 225px;
+  font-size: 12px;
 }
 
+#statuscafe {
+  padding: .5em;
+  background-color: rgba(240, 255, 255, 0.466);
+  border: 2px slateblue dotted;
+  text-align: right;
+}
+#statuscafe-username {
+  margin-bottom: .5em;
+}
+#statuscafe-content {
+  margin: 0 1em 0.5em 1em;
+}
+
+/* 
 #status {
   text-align: right;
   padding-top: 25px;
@@ -84,7 +97,7 @@ a:hover {
 
 #status ul {
   list-style: none;
-}
+} */
 
 #intro img {
   width: 100px;

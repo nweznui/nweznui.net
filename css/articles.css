@@ -1,30 +1,26 @@
 body {
   background-image: url(/content/assets/patterns/qcu50011.jpg);
   background-repeat: repeat;
-  border: none;
+  border: dotted black 2px;
 }
 
 .wrapper {
   display: flex;
-  background-color: rgb(255, 255, 255, 0.5);
+  padding: 10px;
+  background-color: rgba(230, 228, 240, 0.774);
+  gap: 10px;
+}
+
+h2 {
+  font-size: 16px;
 }
 
 /*the leftmost side*/
-#aside {
-  width: 300px;
+#intro {
+  width: 200px;
 }
 
 /*applies to all sections*/
-section {
-  border-left: 2px solid black;
-  padding-left: 10px;
-}
-
-/*within essays*/
-.intro {
-  padding-bottom: 20px;
-}
-
-.intro img {
-  float: right;
+section ul{
+  padding-left: 25px;   
 }
