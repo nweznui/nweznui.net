@@ -76,6 +76,8 @@ a:hover {
 }
 
 #statuscafe {
+  font-size: 11px;
+  height: 145px;
   padding: .5em;
   background-color: rgba(240, 255, 255, 0.466);
   border: 2px slateblue dotted;
