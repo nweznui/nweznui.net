@@ -1,0 +1,21 @@
+.medievalsharp-regular {
+    font-family: "MedievalSharp", cursive;
+    font-weight: 600;
+    font-size: 24px;
+    filter: drop-shadow(5px 5px 5px #000);
+    font-style: normal;
+    color: white;
+}
+
+div p {
+    border-bottom: 2px white dotted;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+  
+body {
+    background-image: url("/content/assets/patterns/DUSKCLD1.JPG");
+    background-size: cover;
+    border: none;
+  }
+  
