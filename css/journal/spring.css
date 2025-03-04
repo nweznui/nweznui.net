@@ -1,0 +1,24 @@
+body {
+    background-image: url('/content/photos/nature/prairie.jpg');
+}
+
+#entry>h2::before {
+    content: url(/content/assets/gifs/flower01a.gif);
+}
+
+aside img {
+    width: 130px;
+}
+
+footer img {
+    position: absolute;
+}
+
+footer a {
+    color: white;
+    border-bottom: none;
+}
+
+footer a:hover {
+    color: black;
+}

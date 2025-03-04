@@ -13,7 +13,7 @@ body {
 }
 
 #entry>h2::before {
-    content: url(../content/assets/gifs/blackswirl.gif);
+    content: url(/content/assets/gifs/blackswirl.gif);
     margin-right: 5px;
 }
 
