@@ -1,3 +1,4 @@
+2025-05-08 note: bug fixes and working on index
 2025-05-08 note: test 2
 2025-05-08 note: test
 2025-04-15 note: new journal entry
