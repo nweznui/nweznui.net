@@ -1,135 +1,42 @@
 <!DOCTYPE html>
-<!--hello, fancy a look? feel free to copy this layout/steal any code that looks useful. i plan to make the whole thing open source on github later-->
-
-<!--to do:-->
-
-<!--....boring stuff:-->
-<!--automate fetch of newest artwork by date uploaded to site-->
-<!--figure out how to auto-populate stuff instead of manually copy/pasting html?-->
-
-<!--...fun stuff:-->
-<!--maybe add a brief introduction somewhere...-->
-<!--add reccomended books/favorite artists/inspirations section-->
-<!--create a manifesto!-->
-<!--replace placeholders with self-made assets-->
-<!--add an rss feed/mailing list??-->
-<!--make drawings based on dreams or comics..-->
-<!-- oekaki board! or public chat / drawing board. -->
-<html>
-
+<html lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<link rel="icon" type="image/x-icon" href="favicon.ico">
-	<title>nweznui &#183; home</title>
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/home.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A brief description of your website">
+    <title>nweznui.net</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="home.css">
 </head>
-
 <body>
-	<!--what goes at the top of the page-->
-	<div class="top">
-		<div id="left">
-			<img src="content/assets/site_buttons/button.png">
-			<img src="content/assets/site_buttons/button2.png">
-		</div>
-		<div id="right">
-			<img src="content/assets/top3.png">
-		</div>
-	</div>
-	<!--what goes inside the big box-->
-	<div id="wrapper">
-		<div class="row" id="one">
-			<nav id="nav">
-				<h4>sitemap</h4>
-				image
-				<ul>	
-					- <a href="/artnav">art</a><br>
-					- <a href="/photos">photos</a><br>
-					- <a href="/comicnav">comics</a>
-				</ul>
-				text		
-				<ul>
-					- <a href="/journal2025/season/spring"> journal</a><br>
-					- <a href="/writing/dreams/dreamjournal2024"> dreams</a><br>
-					- <a href="/writing/favoritequotes">quotes</a><br>		
-					- <a href="/writing/404.html">notes</a>
-
-				</ul>
-			</nav>
-			<div id="intro">
-				<div>
-					<p>i am lapi, a 24-year-old scatterbrained autodidact with a day job. live in chicago. i like to make illustrations and comics, but i dabble in everything.<br>  most importantly, i am a hedgehog. :]
-					</p>
-				</div>
-				<div id="status">
-					<div id="statuscafe">	
-						<div id="statuscafe-username"></div>
-						<img src="/content/placeholder/hedghog.jpg">
-
-						<div id="statuscafe-content"></div>
-					</div>
-					<script src="https://status.cafe/current-status.js?name=nweznui" defer></script>
-				</div>
-
-			</div>
-			<div id="newestwork">
-				<p> featured artwork: </p>
-				<!--need to automate this, just reference the gallery one or somethig-->
-				<img src="/artnav/artwork/illustrations/CAT.png">
-			</div>
-			<div id="newestwork">
-				<p> featured photo: </p>
-				<!--need to automate this, just reference the gallery one or somethig-->
-				<img src="/content/photos/nature/prairie.jpg">
-			</div>
-			<div class="updates">
-				<img src="content/placeholder/holy cow.gif">
-				<img src="content/placeholder/computerneversleeps.gif">
-				<img src="content/placeholder/nightowl.gif">
-				<img src="content/placeholder/sweetdreams.gif">
-
-				<div id="lower">
-					<iframe src="updatehistory.html"></iframe>
-					<div id="guestbook">
-						<p><img src="/content/placeholder/emailme-2.gif">sign my <a
-								href="https://nweznui.atabook.org/">guestbook!</a><img
-								src="/content/placeholder/emailme-2.gif"></p>
-
-					</div>
-				</div>
-			</div>
-
-		</div>
-		<!-- <div class="row" id="two">
-
-			<div id="music">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/TaFKC7TFw7A?si=Toh2sh0zRDIDk9vW"
-					title="YouTube video player" frameborder="0"
-					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-					referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-			</div>
-			<div id="dream">
-				<h>most recent dream:</h5>
-					<p>I had a dream involving u<br>
-						I lived at my old house again and i was totally alone on christmas, u were the only person to
-						send me a gift<br>
-						In the mail u sent me a giant Tupperware container full of baby ducklings<br>
-						And for some reason u told me i could only open it on a cloudy or rainy day<br>
-						It was raining the day u sent it so i opened it<br>
-						<button>read more..</button>
-			</div>
-			<div id="artist">
-				<img src="content/index/tove_jansen.jpg">
-				<p> Morbi et eros a mauris elementum cursus eget et ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec quis aliquet purus. Mauris venenatis mauris justo, in pretium sapien elementum consectetur. Integer volutpat quis felis vel auctor. Nam vestibulum lectus a magna malesuada mollis. Phasellus venenatis elit nec commodo sodales. Etiam pulvinar augue eros, sit amet interdum neque ullamcorper id. </p>
-			</div>
-			<div id="text">
-				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc bibendum ex dui, id feugiat nulla hendrerit et. In rutrum eros ligula, sed consectetur magna finibus sit amet. Proin dictum justo est, ornare ullamcorper nibh condimentum sed. Vestibulum non felis nec tellus rutrum feugiat. Aliquam velit sem, rutrum ac congue nec, elementum et lorem. Donec vel hendrerit mauris, sit amet tempor velit. Nunc facilisis metus et lectus pulvinar, quis hendrerit risus suscipit. Phasellus quis lacus urna. Cras quis nibh ut ligula aliquam bibendum nec ac ante. Proin tellus quam, varius pharetra nisl a, tristique sollicitudin neque. Nunc interdum placerat dolor, ut ultrices massa faucibus sit amet. Vestibulum suscipit ex ac cursus blandit. </p>
-			</div> -->
-	</div>
+    <header>
+        <h1>nweznui</h1>    
+        <nav>
+            <ul>
+                <li><a href="/art">picture-making</a></li>
+                <li><a href="/journal2025/season/spring">journal</a></li>
+                <li><a href="/articles">article</a></li>
+                <li><a href="https://soundcloud.com/sero-quel">music</a></li>
+                <li><a href="/photos">photos</a></li>
+                <li><a href="/escapism">stories to escape</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <p>navel-gazer, normal and disturbed person, learning lots of different things, everday. i grew up cut off from my senses, inside a computer, but i long for the smell of lilacs. for a long time, i would just look, now i want to know.</p>
+        </section>
+        <section id="updates">
+            <h2>site updates</h2>
+            <iframe src="updatehistory.html"></iframe>
+        </section>
+        <section id="contact">  
+            <p>talk to me, about anything, i like new.</p>
+            <p>discord: nweznui | email: nweznui@gmail.com | guestbook: <a href="https://nweznui.atabook.org/">nweznui.atabook.org</a></p>
+        </section>
+    </main>
+    <footer>    
+        <p>&copy; 2025 nweznui.</p>
+    </footer>
 </body>
-<div id='women-web'>
-	<script type="text/javascript" src="https://womenoftheinternet.neocities.org/files/onionring-variables.js"></script>
-	<script type="text/javascript" src="https://womenoftheinternet.neocities.org/files/mono-badge.js"></script>
-</div>
-
 </html>
